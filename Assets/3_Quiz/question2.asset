@@ -10,5 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 0}
-  m_Name: New Questions
+  m_Name: question2
   m_EditorClassIdentifier: Assembly-CSharp::Questions
+  question: 1+2=
+  answers:
+  - 1
+  - 2
+  - 3
+  - 4
+  correctAnswerIndex: 2

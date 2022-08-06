@@ -5,15 +5,20 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "ScriptableObjects/Quiz Questions", fileName = "New Questions")]
 public class Questions : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
+    [TextArea(2,5)]
+    [SerializeField]string question = "Enter new question";
+    [SerializeField]string[] answers = new string[4];
+    [SerializeField]int correctAnswerIndex = 0;
+    public string GetQuestion()
     {
-
+        return question;
     }
-
-    // Update is called once per frame
-    void Update()
+    public string GetAnswer(int index)
     {
-
+        return answers[index];
+    }
+    public int GetCorrectAnswerIndex()
+    {
+        return correctAnswerIndex;
     }
 }
