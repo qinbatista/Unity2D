@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "ScriptableObjects/Quiz Questions", fileName = "New Questions")]
-public class Questions : ScriptableObject
+public class QuestionsSO : ScriptableObject
 {
     [TextArea(2,5)]
     [SerializeField]string question = "Enter new question";
