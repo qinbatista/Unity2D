@@ -32,15 +32,15 @@ public class Controller : MonoBehaviour
         moveInput = value.Get<Vector2>();
         Debug.Log(moveInput);
         // _rigidbody2D.velocity = new Vector2(moveInput.x*5,_rigidbody2D.velocity.y);
-        bool running = Mathf.Abs(_rigidbody2D.velocity.x) > Mathf.Epsilon;
+        bool running = Mathf.Abs(moveInput.x) > Mathf.Epsilon;
         if (running)
         {
-            // Debug.Log("Running");
+            Debug.Log("Running");
             _animator.SetBool(runningID, true);
         }
         else
         {
-            // Debug.Log("Stop");
+            Debug.Log("Stop");
             _animator.SetBool(runningID, false);
         }
         FlipSprite();
