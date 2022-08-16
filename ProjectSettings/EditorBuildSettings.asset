@@ -6,7 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/2_Snow/level1.unity
-    guid: bd3e0eb2d591847ada0fd03c5dab0a27
+    path: Assets/5_Defence/Scene/MainMenu.unity
+    guid: 54e5381df921840aa8546590a5d02f3d
+  - enabled: 1
+    path: Assets/5_Defence/Scene/GameOver.unity
+    guid: 1c307a9a5199b48a5b8b2675a82145ce
+  - enabled: 1
+    path: Assets/5_Defence/Scene/Game.unity
+    guid: 67b65276f59684239afeecf781415db6
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: f6a3c275022bd46e39006ce96902887d, type: 2}

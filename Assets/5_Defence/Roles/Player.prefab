@@ -262,9 +262,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ad3cdae5b6e406a990342ad7a706ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPlayer: 1
   health: 50
+  score: 0
   hitEffect: {fileID: 906139733720327102, guid: 1e53fdcceadef44538bd194196a9cbaf, type: 3}
-  cameraShake: {fileID: 0}
   applyCameraShake: 1
 --- !u!61 &3745954444256055175
 BoxCollider2D:
